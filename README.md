@@ -30,6 +30,7 @@ statement:
 steps to generate compile_commands.json:
 (1) 进入build.ninja所在目录: cd out/hispark_pegasus/wifiiot_hispark_pegasus/
 (2) compile_commands.json生成指令: ninja -C ./ -t compdb cxx cc > compile_commands.json
+(3) 将compile_commands.json移动到源码根目录下:mv ./compile_commands.json ../../..
 
 actual effect:
 函数定义与声明跳转时几乎不会有延迟，速度远远高于使用c/c++插件
