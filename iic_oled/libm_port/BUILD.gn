@@ -1,0 +1,18 @@
+static_library("libm_port") {
+    sources = [
+        "__sin.c",
+        "__cos.c",
+        "__rem_pio2.c",
+        "__rem_pio2_large.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/components/cmsis/2.0",
+        "//base/iothardware/peripheral/interfaces/inner_api/",
+        "//device/soc/hisilicon/hi3861v100/hi3861_adapter/hals/communication/wifi_lite/wifiservice",
+        "//device/soc/hisilicon/hi3861v100/hi3861_adapter/kal",
+    ]
+}
+
+
