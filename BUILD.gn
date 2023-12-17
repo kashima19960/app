@@ -3,6 +3,6 @@ import("//build/lite/config/component/lite_component.gni")
 lite_component("app") {
   features = [ 
   "startup",
-  "wifi_demo:wifi_demo"
+  "pwm_demo:pwm_demo"
    ]
 }
