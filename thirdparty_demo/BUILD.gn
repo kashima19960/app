@@ -1,0 +1,13 @@
+static_library("thirdparty_demo") {
+    sources = [
+        "thirdparty_demo.c"
+    ]
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//third_party/aa_myparty",
+    ]
+
+    deps = [
+        "//third_party/aa_myparty:aa_myparty_static",
+    ]
+}
