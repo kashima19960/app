@@ -49,7 +49,7 @@ actual effect:
 
 遇到问题：新版OneNET云平台无法打开多协议接入，查看产品鉴权信息、Master APIkey等。
 
-解决方法：先在新版OneNET云平台注册账号,再打开OneNET云平台旧版的链接：https://open.iot.10086.cn/develop/global/product/#/public?protocol=3&other=1，即可切换到旧版OneNET云平台。
+解决方法：先在新版OneNET云平台注册账号,再打开OneNET云平台旧版的链接：https://open.iot.10086.cn/develop/global/product/#/public?protocol=3&other=1
 
 -------------------------------------------------------------------------------------------------------
 
